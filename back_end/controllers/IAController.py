@@ -11,9 +11,6 @@ from sklearn.naive_bayes import MultinomialNB
 from openai import OpenAI
 from decouple import Config, RepositoryEnv
 
-import os
-
-
 DOTENV_FILE = "./config/.env"
 
 class IAController:
