@@ -33,7 +33,7 @@ class IAController:
     
     @staticmethod
     def predict(name):
-        # le mieux a faire est d'enregistree le model dans un fichier & de faire les prediction dessus, ça evite de reentrainer le model a chaque fois
+        # le mieux a faire est d'enregistree le model & le vectorizer dans un fichier & de faire les prediction dessus, ça evite de reentrainer le model a chaque fois
         modelMainType, vectorizerMainType, accuracyMainType  = IAController.trainModelMain()
         modelSubType, vectorizerSubType, accuracySubType  = IAController.trainModelSub()
 
