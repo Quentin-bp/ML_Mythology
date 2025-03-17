@@ -1,5 +1,5 @@
 For this project, you mainly need to have python fastapi, uvicorn, supabase and beautifulsoup installed  
-For the Web Applciation, you need to have NPM installed
+For the Web Application, you need to have NPM installed
 ```sh
 pip install fastapi
 pip install uvicorn
