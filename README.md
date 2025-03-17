@@ -1,5 +1,6 @@
 For this project, you mainly need to have python fastapi, uvicorn, supabase and beautifulsoup installed  
 For the Web Application, you need to have NPM installed
+
 ```sh
 pip install fastapi
 pip install uvicorn
@@ -24,6 +25,8 @@ You have to make the commands :
 ``` cd ./web_app ```   
 ``` npm install ```
 ``` npm start ```   
+
+It is strongly recommended to use Google Chrome to open the Web Application. 
 
 ## || Architecture ||
 
