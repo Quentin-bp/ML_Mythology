@@ -36,9 +36,9 @@ class IAController:
     
     @staticmethod
     def predict(name):
-        if (True == True):
-            modelMainType, vectorizerMainType, accuracyMainType  = IAController.trainModelMain()
-            modelSubType, vectorizerSubType, accuracySubType  = IAController.trainModelSub()
+        # le mieux a faire est d'enregistree le model dans un fichier & de faire les prediction dessus, ça evite de reentrainer le model a chaque fois
+        modelMainType, vectorizerMainType, accuracyMainType  = IAController.trainModelMain()
+        modelSubType, vectorizerSubType, accuracySubType  = IAController.trainModelSub()
 
         syllabes = extractTokensInName(name)
         namePrepared = syllablesToString(syllabes)# on prepare le nom en le decoupant en syllabes
