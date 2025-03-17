@@ -1,0 +1,16 @@
+.page-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: calc(100%);
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+.page-bar .title {
+    font-size: xx-large;
+    font-weight: bold;
+    display: flex;
+    align-items: end;
+}

@@ -1,0 +1,32 @@
+.page {
+    width: 100%;
+    height: 100%;
+    background: scroll;
+    overflow: hidden;
+    overflow-y: auto;
+    background-color: var(--white);
+    display: flex;
+    margin-left: calc(-220px + 67px);
+}
+
+.page.default {
+    margin-left: unset;
+}
+
+.page::-webkit-scrollbar {
+    width: 10px;
+    margin-left: 5px;
+}
+ 
+.page::-webkit-scrollbar-track {
+    background-color: white;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.page::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: var(--main); 
+}

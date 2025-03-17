@@ -1,0 +1,111 @@
+.form_search {
+  margin-top: 10%;
+  border: 5px solid brown;
+  border-radius: 15px;
+  width: 75%;
+  padding: 15px;
+  margin-bottom: 50px;
+  justify-content: center;
+
+}
+
+.form_search:hover {
+  transition: all .3s;
+  box-shadow: -1px 1px 5px 9px rgba(0, 0, 0, 0.4);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text],
+input[type=number],
+select,
+textarea {
+  width: 500px;
+  height: 120px;
+  padding: 12px;
+  border: 1px solid var(--beige_medium);
+  background-color: var(--beige_medium);
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.form_container .checkbox {
+  accent-color: var(--beige_medium);
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.form_container {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+  .col-25,
+  .col-75,
+  input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.list_checkbox_container {
+  display: grid;
+  grid-template-columns: 300px 300px 200%;
+}
+
+.grid_suggestion {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+input[type="text"],
+textarea {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  color: var(--dark);
+}
+
+
+input[type="text"],
+textarea:focus {
+  outline: 2px solid var(--beige_dark)
+}
+
+textarea:focus {
+  outline: 2px solid var(--beige_dark)
+}
+
+.container_loading {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}

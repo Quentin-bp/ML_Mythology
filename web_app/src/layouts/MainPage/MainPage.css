@@ -1,0 +1,13 @@
+.background-page {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: var(--beige);
+    height: 100%;
+}
+.background-page:has(> .home_page)    {
+    margin : 0 !important;
+    background-color: var(--red);
+}
