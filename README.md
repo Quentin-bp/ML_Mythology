@@ -31,6 +31,7 @@ In this project, you have 2 blocks : the Web application in React & the Back End
 Since the project is a data one, there will be no explication about the Web Application which just print all the content obtained by using Python. 
 
 Folder back_end : 
+
     - analysis : You will find the 2 jupyter notebooks used to have the results before to work on a complete application. There is some explication/analysis of the results. Most of the analysis are foundable in the Web application, fully redacted. 
 
     - controllers : You will find all the files which run the main code. 
@@ -56,12 +57,15 @@ Folder back_end :
 
 
 Folder config contains the .env of the application : 
+    
     -.env : Contains all key used in the application. Don't forget to set the values with yours
 
 Folder data contains the data of the application: 
+    
     -greek_gods_dataset : Contains all data obtained by scrapping.
 
 Folder web_app : 
+    
     - Folder src Contains all the file used in the React Application.
 
 api.py : Contains all routes used by API
@@ -86,6 +90,6 @@ Postman (or other app you want) and load the following routes :
         "txt" : "god of the thunders" // change the description by what you want
     }
 
-![Home Page](data/images/bye_readme.gif)
+![Home Page](data/bye.gif)
 
 
